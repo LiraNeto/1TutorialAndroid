@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:contentDescription="@string/image_context"
         />
 
     <TextView
@@ -20,10 +21,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:paddingTop="8dp"
+        android:paddingTop="16dp"
         android:paddingLeft="8dp"
         android:text="Feliz aniversário, amora minha"
-        android:textAllCaps="true"/>
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_green_dark"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,5 +36,8 @@
         android:layout_alignParentBottom="true"
         android:paddingBottom="8dp"
         android:paddingRight="8dp"
-        android:text="De Lira"/>
+        android:text="De Lira"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_green_dark"/>
 </RelativeLayout>
